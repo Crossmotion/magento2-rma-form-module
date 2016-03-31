@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author CrossMotion
+ * @copyright Copyright (c) 2016 CrossMotion (https://www.crossmotion.nl)
+ * @package CrossMotion_rmaForm
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="admin">
+        <route id="crossmotion_rmaform" frontName="crossmotion_rmaform">
+            <module name="CrossMotion_RmaForm"/>
+        </route>
+    </router>
+</config>

@@ -1,0 +1,75 @@
+<!--@subject Return request  @-->
+
+<!--@vars {
+'name' => $form['name'],
+'email' => $form['email'],
+'telephone' => $form['telephone'],
+'ordernumber' => $form['ordernumber'],
+'orderdate' => $form['orderdate'],
+'return-reason' => $form['return-reason'],
+'additional' => $form['additional'],
+'bankaccountnumber' => $form['bankaccountnumber'],
+'bankaccountholder' => $form['bankaccountholder'],
+'country' => $form['country']
+'returnproduct' => $form['returnproduct'],
+'productnumber' => $form['productnumber'],
+'productquantity' => $form['productquantity']
+} @-->
+
+{{template config_path="design/email/header_template"}}
+
+<table>
+    <tr class="email-intro">
+        <td>
+            <p class="greeting">{{trans "%customer_name," customer_name=$name}}</p>
+            <p>
+                {{trans 'Thank you for filling in the Return form. A receipt from your request is posted below. We will
+                contact you shortly with information on how to return your products.'}}
+            </p>
+        </td>
+    </tr>
+    <tr class="email-summary">
+        <td>
+            <h1>{{trans 'Your RMA request for order: <span class="no-link">#%increment_id</span>'
+                increment_id=$ordernumber |raw}}</h1>
+            <p>{{trans 'Placed on <span class="no-link">%created_at</span>' created_at=Date('Y-m-d') |raw}}</p>
+        </td>
+    </tr>
+    <tr class="email-information">
+        <td>
+            <table class="order-details">
+                <tr>
+                    <td class="address-details">
+                        <h3>{{trans "Contact Info"}}</h3>
+                        <p><strong>{{trans 'Email:'}}</strong> {{var email|raw}}</p>
+                        <p><strong>{{trans 'Phone:'}}</strong> {{var telephone|raw}}</p>
+                        <p><strong>{{trans 'Country:'}}</strong> {{var country|raw}}</p>
+                        <p><strong>{{trans 'Bank account number:'}}</strong> {{var bankaccountnumber|raw}}</p>
+                        <p><strong>{{trans 'Bank account holder:'}}</strong> {{var bankaccountholder|raw}}</p>
+                        <p><strong>{{trans 'Return reason:'}}</strong> {{var return-reason|raw}}</p>
+                        <p><strong>{{trans 'Order date:'}}</strong> {{var orderdate|raw}}</p>
+                        <p><strong>{{trans 'Notes:'}}</strong> {{var additional|raw}}</p>
+                    </td>
+                </tr>
+            </table>
+            <table class="email-items">
+                <thead>
+                <tr>
+                    <th class="item-info">{{trans "Item"}}</th>
+                    <th class="item-info">{{trans "Sku"}}</th>
+                    <th class="item-info">{{trans "Qty returned"}}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{{var returnproduct|raw}}</td>
+                    <td>{{var productnumber|raw}}</td>
+                    <td>{{var productquantity|raw}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer_template"}}

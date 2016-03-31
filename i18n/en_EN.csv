@@ -1,0 +1,47 @@
+"Only files with jpg extension are allowed.","Only files with jpg extension are allowed."
+"You can only upload files to a maximum of 10 MB.","You can only upload files to a maximum of 10 MB."
+"The return form is send. We will contact you shortly.","The return form is send. We will contact you shortly."
+"Required fields","Required fields"
+"Full name","Full name"
+"E-mail Address","E-mail Address"
+"Telephone (Country code)","Telephone (Country code)"
+"Please select your Country","Please select your Country"
+Telephone,Telephone
+"Order number","Order number"
+"Order Date","Order Date"
+"Which product would you like to return?","Which product would you like to return?"
+"Product number","Product number"
+Quantity,Quantity
+"Product quantity","Product quantity"
+"Reason for return","Reason for return"
+Damaged,Damaged
+"Manufacturing default","Manufacturing default"
+"Incorrect product (colour / size / model)","Incorrect product (colour / size / model)"
+"Does not meet expectations","Does not meet expectations"
+"Upload your images (max 10 images)","Upload your images (max 10 images)"
+"Additional information","Additional information"
+"Bank Account Number (IBAN)","Bank Account Number (IBAN)"
+"Bank account name holder","Bank account name holder"
+"* Required fields","* Required fields"
+Confirm,Confirm
+"Your RMA request.","Your RMA request."
+"A recipt from your request is posted below. We will contact you shortly with information to return your products.","A receipt from your request is posted below. We will contact you shortly with information to return your products."
+"Your Order <span class=""no-link"">#%increment_id</span>","Your Order <span class=""no-link"">#%increment_id</span>"
+"Placed on <span class=""no-link"">%created_at</span>","Placed on <span class=""no-link"">%created_at</span>"
+"Contact Info","Contact Info"
+Email:,Email:
+Phone:,Phone:
+Country:,Country:
+"Bank account number:","Bank account number:"
+"Bank account holder:","Bank account holder:"
+"Return reason:","Return reason:"
+Notes:,Notes:
+Item,Item
+Sku,Sku
+"Thank you for filling in the Return form. A receipt from your request is posted below. We will contact you shortly with information on how to return your products.","Thank you for filling in the Return form. A receipt from your request is posted below. We will contact you shortly with information on how to return your products."
+"Your RMA request for order: <span class=""no-link"">#%increment_id</span>","Your RMA request for order: <span class=""no-link"">#%increment_id</span>"
+"Order date:","Order date:"
+"Qty returned","Qty returned"
+"Return form","Return form"
+General,General
+"Enable form","Enable form"

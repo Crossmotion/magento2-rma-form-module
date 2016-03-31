@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-right"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="breadcrumbs">
+            <action method="addCrumb">
+                <argument name="crumbName" xsi:type="string">Home</argument>
+                <argument name="crumbInfo" xsi:type="array">
+                    <item name="title" xsi:type="string">Home</item>
+                    <item name="label" xsi:type="string">Home</item>
+                    <item name="link" xsi:type="string">/</item>
+                </argument>
+            </action>
+            <action method="addCrumb">
+                <argument name="crumbName" xsi:type="string">Return policy</argument>
+                <argument name="crumbInfo" xsi:type="array">
+                    <item name="title" xsi:type="string">Return policy</item>
+                    <item name="label" xsi:type="string">Return policy</item>
+                    <item name="link" xsi:type="string">/returnform/</item>
+                </argument>
+            </action>
+        </referenceBlock>
+
+        <referenceContainer name="content">
+            <block class="Magento\Cms\Block\Block" name="Rma block">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">rma_block</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Framework\View\Element\Template" template="CrossMotion_RmaForm::form.phtml"/>
+            <referenceContainer name="productlisting">
+                <block class="CrossMotion\RmaForm\Block\ProductListing"
+                       template="CrossMotion_RmaForm::view/productListing.phtml"/>
+            </referenceContainer>
+        </referenceContainer>
+
+        <referenceContainer name="sidebar.additional">
+            <referenceBlock name="catalog.compare.sidebar" remove="true"/>
+        </referenceContainer>
+
+        <referenceContainer name="sidebar.main">
+            <block class="Magento\Theme\Block\Html\Topmenu" name="contact.sidebar" before="-"
+                   template="html/sidebar-contact.phtml" ttl="3600"/>
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,47 @@
+"Only files with jpg extension are allowed.","Nur Dateien mit jpg-Erweiterung erlaubt."
+"You can only upload files to a maximum of 10 MB.","Sie können Dateien nur bis maximal 10 MB hochladen."
+"The return form is send. We will contact you shortly.","Das Rücksendeformular ist gesendet. Wir werden Sie in Kürze kontaktieren."
+"Required fields","Pflichtangaben"
+"Full name","Vollständiger Name"
+"E-mail Address","E-Mail-Adresse"
+"Telephone (Country code)","Telefon (Vorwahl)"
+"Please select your Country","Bitte wählen Sie Ihr Land"
+Telephone,Telefon
+"Order number","Bestellnummer "
+"Order Date","Datum der Bestellung"
+"Which product would you like to return?","Welches Produkt möchten Sie zurückgeben?"
+"Product number","Produktnummer"
+Quantity,Menge
+"Product quantity","Produkt Menge"
+"Reason for return","Rückgabegrund"
+Damaged,Defekt
+"Manufacturing default","Fabrikfehler"
+"Incorrect product (colour / size / model)","Falsche Produkt (Farbe / Größe / Modell)"
+"Does not meet expectations","Entspricht nicht den Erwartungen"
+"Upload your images (max 10 images)","Laden Sie Ihre Fotos hoch (max 10 Fotos)"
+"Additional information","Zusatzinformationen"
+"Bank Account Number (IBAN)","Kontonummer (IBAN) "
+"Bank account name holder","Kontoinhaber"
+"* Required fields","* Pflichtangaben"
+Confirm,Bestätigen
+"Your RMA request.","Ihre Rückkehr Anfrage."
+"A recipt from your request is posted below. We will contact you shortly with information to return your products.","Eine Empfangsbestätigung von Ihrer Anfrage ist nachfolgend geschrieben. Wir werden Sie in Kürze kontaktieren und geben Sie alle erforderlichen Informationen, um Ihre Produkte zurückzukehren."
+"Your Order <span class=""no-link"">#%increment_id</span>","Ihre Bestellung <span class=""no-link"">#%increment_id</span>"
+"Placed on <span class=""no-link"">%created_at</span>","Platziert auf <span class=""no-link"">%created_at</span>"
+"Contact Info","Kontaktinformation"
+Email:,E-Mail-Adresse:
+Phone:,Telefon:
+Country:,Land:
+"Bank account number:","Kontonummer:"
+"Bank account holder:","Kontoinhaber:"
+"Return reason:","Rückgabegrund:"
+Notes:,Zusatzinformationen:
+Item,Artikel
+Sku,Sku
+"Thank you for filling in the Return form. A receipt from your request is posted below. We will contact you shortly with information on how to return your products.","Vielen Dank für das Ausfüllen von das Rücksendeformular. Eine Empfangsbestätigung von Ihrer Anfrage ist nachfolgend geschrieben. Wir werden Sie in Kürze kontaktieren und geben Sie alle erforderlichen Informationen, um Ihre Produkte zurückzukehren."
+"Your RMA request for order: <span class=""no-link"">#%increment_id</span>","Ihre Rückkehr Anfrage zu Bestellung: <span class=""no-link"">#%increment_id</span>"
+"Order date:","Datum der Bestellung:"
+"Qty returned","Anzahl zurückgegeben"
+"Return form","Rückgabeformular"
+General,General
+"Enable form","Formular Aktivieren"

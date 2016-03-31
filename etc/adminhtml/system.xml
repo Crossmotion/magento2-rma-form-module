@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author CrossMotion
+ * @copyright Copyright (c) 2016 CrossMotion (https://www.crossmotion.nl)
+ * @package CrossMotion_rmaForm
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+    <system>
+        <tab id="crossmotion" translate="label" sortOrder="120">
+            <label>CrossMotion</label>
+        </tab>
+        <section id="crossmotion_rmaform" translate="label" type="text" sortOrder="120" showInDefault="1"
+                 showInWebsite="1"
+                 showInStore="1">
+            <label>Return form</label>
+            <tab>crossmotion</tab>
+            <resource>CrossMotion_RmaForm::crossmotion_rmaform</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0"
+                   showInStore="0">
+                <label>General</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Enable form</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="email_template" translate="Template used to send e-mail to store owner" type="select"
+                       sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Email template</label>
+                    <source_model>Magento\Config\Model\Config\Source\Email\Template</source_model>
+                </field>
+                <field id="email_reciever" translate="Email adress to send form to" type="select" sortOrder="30"
+                       showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Email address to send Form to</label>
+                    <source_model>Magento\Config\Model\Config\Source\Email\Identity</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

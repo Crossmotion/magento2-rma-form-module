@@ -1,0 +1,47 @@
+"Only files with jpg extension are allowed.","Seuls les fichiers avec l'extension jpg sont autorisés."
+"You can only upload files to a maximum of 10 MB.","Vous ne pouvez télécharger des fichiers à un maximum de 10 MB."
+"The return form is send. We will contact you shortly.","Le formulaire de réponse est envoyée. Nous vous contacterons sous peu."
+"Required fields","Champs obligatoires"
+"Full name","Nom et prénom"
+"E-mail Address","Adresse email"
+"Telephone (Country code)","Téléphone (Code de pays)"
+"Please select your Country","Sélectionnez votre pays"
+Telephone,Téléphone
+"Order number","Numéro de la commande"
+"Order Date","Date de la commande"
+"Which product would you like to return?","Quel produit voudriez-vous retourner ?"
+"Product number","Numéro du produit"
+Quantity,Quantité
+"Product quantity","Nombre de produits"
+"Reason for return","Raison du retour"
+Damaged,Endommagé
+"Manufacturing default","Défaut de fabrication"
+"Incorrect product (colour / size / model)","Produit erroné (couleur / taille / modèle)"
+"Does not meet expectations","Ne satisfait pas les attentes"
+"Upload your images (max 10 images)","Téléchargez vos images (max. 10 images)"
+"Additional information","Informations supplémentaires"
+"Bank Account Number (IBAN)","Numéro de compte bancaire (IBAN)"
+"Bank account name holder","Titulaire du compte bancaire"
+"* Required fields","* Champs obligatoires"
+Confirm,Envoyer
+"Your RMA request.","Votre demande de retour."
+"A recipt from your request is posted below. We will contact you shortly with information to return your products.","Un reçu de votre demande est affichée ci-dessous. Nous vous contacterons rapidement avec des informations pour retourner vos produits."
+"Your Order <span class=""no-link"">#%increment_id</span>","Votre commande <span class=""no-link"">#%increment_id</span>"
+"Placed on <span class=""no-link"">%created_at</span>","Mise en <span class=""no-link"">%created_at</span>"
+"Contact Info","Informations de contact"
+Email:,Adresse email:
+Phone:,Téléphone:
+Country:,Pays:
+"Bank account number:","Numéro de compte bancaire:"
+"Bank account holder:","Titulaire du compte bancaire:"
+"Return reason:","Raison du retour:"
+Notes:,Informations supplémentaires:
+Item,Article
+Sku,Sku
+"Thank you for filling in the Return form. A receipt from your request is posted below. We will contact you shortly with information on how to return your products.","Nous vous remercions de compléter le formulaire de retour. Un reçu de votre demande est affichée ci-dessous. Nous vous contacterons rapidement avec des informations pour retourner vos produits."
+"Your RMA request for order: <span class=""no-link"">#%increment_id</span>","Votre retour demande pour commande: <span class=""no-link"">#%increment_id</span>"
+"Order date:","Date de la commande:"
+"Qty returned","Quantité retournée"
+"Return form","Formulaire de Retour"
+General,Général
+"Enable form","Activer forme"
